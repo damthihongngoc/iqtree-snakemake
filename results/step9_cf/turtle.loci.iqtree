@@ -1,0 +1,189 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Partition file name: data/turtle.nex
+Input file name: data/turtle.fa
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 121766
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 16 taxa with 27 partitions and 19380 total sites (26.7715% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	11	846	427	282	382	382	ENSGALG00000000223.macse_DNA_gb
+   2	DNA	10	522	281	193	227	227	ENSGALG00000001529.macse_DNA_gb
+   3	DNA	10	672	264	194	351	351	ENSGALG00000002002.macse_DNA_gb
+   4	DNA	14	732	326	222	422	422	ENSGALG00000002514.macse_DNA_gb
+   5	DNA	15	966	419	313	556	556	ENSGALG00000003337.macse_DNA_gb
+   6	DNA	14	885	363	257	525	525	ENSGALG00000003700.macse_DNA_gb
+   7	DNA	10	1545	572	359	833	833	ENSGALG00000003702.macse_DNA_gb
+   8	DNA	12	480	262	176	225	225	ENSGALG00000003907.macse_DNA_gb
+   9	DNA	12	576	259	176	318	318	ENSGALG00000005820.macse_DNA_gb
+  10	DNA	15	696	232	129	483	483	ENSGALG00000005834.macse_DNA_gb
+  11	DNA	13	570	201	124	334	334	ENSGALG00000005902.macse_DNA_gb
+  12	DNA	12	792	437	283	334	334	ENSGALG00000008338.macse_DNA_gb
+  13	DNA	12	546	257	231	262	262	ENSGALG00000008916.macse_DNA_gb
+  14	DNA	11	930	366	243	547	547	ENSGALG00000009085.macse_DNA_gb
+  15	DNA	13	597	344	239	261	261	ENSGALG00000009879.macse_DNA_gb
+  16	DNA	10	447	240	201	211	211	ENSGALG00000011434.macse_DNA_gb
+  17	DNA	12	981	268	172	659	659	ENSGALG00000011917.macse_DNA_gb
+  18	DNA	10	468	228	169	191	191	ENSGALG00000011966.macse_DNA_gb
+  19	DNA	13	753	339	233	387	387	ENSGALG00000012244.macse_DNA_gb
+  20	DNA	13	519	225	149	292	292	ENSGALG00000012379.macse_DNA_gb
+  21	DNA	9	630	231	158	382	382	ENSGALG00000012568.macse_DNA_gb
+  22	DNA	10	1302	415	279	815	815	ENSGALG00000013227.macse_DNA_gb
+  23	DNA	11	561	242	176	297	297	ENSGALG00000014038.macse_DNA_gb
+  24	DNA	9	498	166	96	314	314	ENSGALG00000014648.macse_DNA_gb
+  25	DNA	10	597	289	187	238	238	ENSGALG00000015326.macse_DNA_gb
+  26	DNA	12	594	272	175	281	281	ENSGALG00000015397.macse_DNA_gb
+  27	DNA	13	675	348	249	323	323	ENSGALG00000016241.macse_DNA_gb
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TN+I+G4:ENSGALG00000000223.macse_DNA_gb,TPM2+G4:ENSGALG00000001529.macse_DNA_gb,TN+F+G4:ENSGALG00000002002.macse_DNA_gb,TVM+F+I+G4:ENSGALG00000002514.macse_DNA_gb,TIM2+I+G4:ENSGALG00000003337.macse_DNA_gb,TIM2+F+G4:ENSGALG00000003700.macse_DNA_gb,TN+F+G4:ENSGALG00000003702.macse_DNA_gb,K2P+G4:ENSGALG00000003907.macse_DNA_gb,TN+I:ENSGALG00000005820.macse_DNA_gb,TPM2+G4:ENSGALG00000005834.macse_DNA_gb,TNe+G4:ENSGALG00000005902.macse_DNA_gb,TPM3u+G4:ENSGALG00000008338.macse_DNA_gb,TPM2u+R2:ENSGALG00000008916.macse_DNA_gb,TIM2+F+G4:ENSGALG00000009085.macse_DNA_gb,TN+F+G4:ENSGALG00000009879.macse_DNA_gb,TPM3u+I+G4:ENSGALG00000011434.macse_DNA_gb,TPM2+G4:ENSGALG00000011917.macse_DNA_gb,HKY+G4:ENSGALG00000011966.macse_DNA_gb,GTR+G4:ENSGALG00000012244.macse_DNA_gb,HKY+G4:ENSGALG00000012379.macse_DNA_gb,TIM3+G4:ENSGALG00000012568.macse_DNA_gb,TPM2u+F+G4:ENSGALG00000013227.macse_DNA_gb,TIM2+F+G4:ENSGALG00000014038.macse_DNA_gb,TN+F+G4:ENSGALG00000014648.macse_DNA_gb,TIM+F+G4:ENSGALG00000015326.macse_DNA_gb,TIM2+F+G4:ENSGALG00000015397.macse_DNA_gb,TPM2u+I+G4:ENSGALG00000016241.macse_DNA_gb
+
+List of best-fit models per partition:
+
+  ID  Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+   1  TN+I+G4           -5028.567   10103.133 + -2.5e-147   10104.476 +   1e-316   10212.165 + 8.42e-318
+   2  TPM2+G4           -3387.685    6815.370 + -2.5e-147    6817.047 +   1e-316    6900.523 + 8.42e-318
+   3  TN+F+G4           -3576.615    7199.230 + -2.5e-147    7200.934 +   1e-316    7302.966 + 8.42e-318
+   4  TVM+F+I+G4        -4262.469    8592.938 + -2.5e-147    8596.353 +   1e-316    8749.195 + 8.42e-318
+   5  TIM2+I+G4         -6164.761   12393.522 + -2.5e-147   12395.786 +   1e-316   12549.464 + 8.42e-318
+   6  TIM2+F+G4         -4694.342    9452.685 + -2.5e-147    9455.163 +   1e-316    9605.823 + 8.42e-318
+   7  TN+F+G4           -7554.802   15155.604 + -2.5e-147   15156.329 +   1e-316   15278.487 + 8.42e-318
+   8  K2P+G4            -2921.784    5889.567 + -2.5e-147    5891.988 +   1e-316    5985.564 + 8.42e-318
+   9  TN+I              -3100.207    6248.414 + -2.5e-147    6250.592 +   1e-316    6352.961 + 8.42e-318
+  10  TPM2+G4           -3023.377    6106.754 + -2.5e-147    6109.551 +   1e-316    6243.114 + 8.42e-318
+  11  TNe+G4            -2779.579    5611.157 + -2.5e-147    5613.743 +   1e-316    5724.144 + 8.42e-318
+  12  TPM3u+G4          -5101.303   10250.606 + -2.5e-147   10252.171 +   1e-316   10362.796 + 8.42e-318
+  13  TPM2u+R2          -3361.246    6772.492 + -2.5e-147    6774.992 +   1e-316    6880.057 + 8.42e-318
+  14  TIM2+F+G4         -4523.179    9098.358 + -2.5e-147    9099.913 +   1e-316    9224.073 + 8.42e-318
+  15  TN+F+G4           -4150.578    8359.157 + -2.5e-147    8362.225 +   1e-316    8486.522 + 8.42e-318
+  16  TPM3u+I+G4        -2883.306    5808.611 + -2.5e-147    5810.785 +   1e-316    5894.765 + 8.42e-318
+  17  TPM2+G4           -4023.400    8094.800 + -2.5e-147    8096.055 +   1e-316    8212.125 + 8.42e-318
+  18  HKY+G4            -2947.571    5933.143 + -2.5e-147    5934.839 +   1e-316    6011.964 + 8.42e-318
+  19  GTR+G4            -4335.505    8729.010 + -2.5e-147    8731.417 +   1e-316    8863.108 + 8.42e-318
+  20  HKY+G4            -2850.144    5750.289 + -2.5e-147    5752.926 +   1e-316    5856.586 + 8.42e-318
+  21  TIM3+G4           -2885.901    5809.803 + -2.5e-147    5811.049 +   1e-316    5894.272 + 8.42e-318
+  22  TPM2u+F+G4        -5557.075   11160.150 + -2.5e-147   11161.014 +   1e-316   11279.099 + 8.42e-318
+  23  TIM2+F+G4         -3279.965    6611.929 + -2.5e-147    6614.558 +   1e-316    6724.502 + 8.42e-318
+  24  TN+F+G4           -2075.289    4192.577 + -2.5e-147    4194.518 +   1e-316    4281.000 + 8.42e-318
+  25  TIM+F+G4          -3641.755    7331.511 + -2.5e-147    7333.609 +   1e-316    7436.917 + 8.42e-318
+  26  TIM2+F+G4         -3560.661    7177.323 + -2.5e-147    7180.197 +   1e-316    7300.155 + 8.42e-318
+  27  TPM2u+I+G4        -4375.177    8804.353 + -2.5e-147    8806.690 +   1e-316    8926.250 + 8.42e-318
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Topology-unlinked partition model with separate substitution models and separate rates across sites
+
+  ID  Model         TreeLen  Parameters
+   1  TN+F+I+G4      2.1274  TN{3.60646,5.27466}+F{0.268057,0.242616,0.236039,0.253289}+I{0.293063}+G4{1.39463}
+   2  TPM2+G4        1.9168  TPM2{1.80187,5.30862}+FQ+G4{0.550787}
+   3  TN+F+G4        1.7382  TN{3.04315,6.61505}+F{0.295046,0.228942,0.28145,0.194562}+G4{0.393617}
+   4  TVM+F+I+G4     1.9077  TVM{2.14919,4.62221,0.961021,0.381095}+F{0.303011,0.189302,0.257314,0.250374}+I{0.398738}+G4{0.740897}
+   5  TIM2+F+I+G4    2.2135  TIM2{1.7946,5.344,9.53279}+F{0.257628,0.244857,0.264434,0.233081}+I{0.469509}+G4{0.975562}
+   6  TIM2+F+G4      1.5933  TIM2{1.95297,7.37222,16.5144}+F{0.356824,0.17346,0.217723,0.251994}+G4{0.268366}
+   7  TN+F+G4        1.4007  TN{3.13295,4.73634}+F{0.323651,0.223159,0.227063,0.226126}+G4{0.455875}
+   8  K2P+G4         1.9534  K2P{4.08096}+FQ+G4{0.447937}
+   9  TN+F+I         1.6827  TN{4.23146,7.35367}+F{0.286603,0.210894,0.235169,0.267334}+I{0.513515}
+  10  TPM2+G4        0.9305  TPM2{3.50935,12.802}+FQ+G4{0.188822}
+  11  TNe+G4         1.5434  TNe{3.58551,8.32393}+FQ+G4{0.317712}
+  12  TPM3u+F+G4     2.1233  TPM3u{1.26469,3.98197}+F{0.269387,0.270666,0.235438,0.224509}+G4{0.615109}
+  13  TPM2u+F+R2     2.0027  TPM2u{2.15959,7.26853}+F{0.334109,0.216225,0.227082,0.222584}+R2{0.551989,0.0838405,0.448011,2.12879}
+  14  TIM2+F+G4      1.4486  TIM2{1.65563,5.10289,11.0167}+F{0.315346,0.193327,0.237172,0.254156}+G4{0.333487}
+  15  TN+F+G4        2.2568  TN{4.68696,2.89808}+F{0.211475,0.222482,0.20831,0.357733}+G4{0.507705}
+  16  TPM3u+F+I+G4   2.0717  TPM3u{2.1821,5.33515}+F{0.213955,0.263792,0.263561,0.258693}+I{0.386573}+G4{2.06903}
+  17  TPM2+G4        0.9061  TPM2{2.31878,7.53544}+FQ+G4{0.239637}
+  18  HKY+F+G4       2.2959  HKY{4.17086}+F{0.251923,0.289103,0.208974,0.25}+G4{0.545527}
+  19  GTR+F+G4       1.8847  GTR{4.3444,6.50979,1.40272,1.75666,11.3293}+F{0.27225,0.222222,0.231308,0.27422}+G4{0.395547}
+  20  HKY+F+G4       1.7693  HKY{6.27071}+F{0.326198,0.183341,0.236544,0.253917}+G4{0.284143}
+  21  TIM3+F+G4      1.0839  TIM3{1.67132,3.70874,7.25625}+F{0.250281,0.259259,0.270108,0.220352}+G4{0.36425}
+  22  TPM2u+F+G4     1.0844  TPM2u{1.78233,7.65783}+F{0.317968,0.211059,0.200754,0.270218}+G4{0.307271}
+  23  TIM2+F+G4      1.7731  TIM2{1.54625,4.35887,8.90683}+F{0.310468,0.188394,0.210663,0.290475}+G4{0.353309}
+  24  TN+F+G4        0.9234  TN{2.64582,8.65713}+F{0.387571,0.119548,0.246554,0.246328}+G4{0.365924}
+  25  TIM+F+G4       1.9363  TIM{3.83676,2.53895,8.51118}+F{0.290466,0.22572,0.31021,0.173604}+G4{0.726024}
+  26  TIM2+F+G4      1.7793  TIM2{1.78737,5.11449,10.9618}+F{0.321115,0.186,0.227397,0.265488}+G4{0.503564}
+  27  TPM2u+F+I+G4   2.1563  TPM2u{1.86919,7.46933}+F{0.262492,0.226151,0.22566,0.285697}+I{0.370269}+G4{1.55201}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -105945.0111 (s.e. 621.1203)
+Unconstrained log-likelihood (without tree): -89598.5790
+Number of free parameters (#branches + #model parameters): 713
+Akaike information criterion (AIC) score: 213316.0222
+Corrected Akaike information criterion (AICc) score: 213370.5686
+Bayesian information criterion (BIC) score: 218928.7559
+
+Total tree length (sum of branch lengths): 46.5032
+Sum of internal branch lengths: 11.4435 (24.6081% of tree length)
+
+Tree topologies are unlinked across partitions, thus no drawing will be displayed here
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t results/step9_cf/turtle.loci.treefile
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s data/turtle.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s data/turtle.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Jan 21 11:59:25 2026
+Total CPU time used: 85.89 seconds (0h:1m:25s)
+Total wall-clock time used: 47.37 seconds (0h:0m:47s)
+

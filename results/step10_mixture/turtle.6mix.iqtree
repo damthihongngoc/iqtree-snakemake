@@ -1,0 +1,171 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: data/turtle.fa
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 124855
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 16 sequences with 20820 nucleotide sites
+Number of constant sites: 11185 (= 53.7224% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 11185 (= 53.7224% of all sites)
+Number of parsimony informative sites: 6084
+Number of distinct site patterns: 8574
+
+SUBSTITUTION PROCESS
+--------------------
+
+Mixture model of substitution: MIX{GTR+FO,GTR+FO,GTR+FO,GTR+FO,GTR+FO,GTR+FO}+I+R3
+
+  No  Component      Rate    Weight   Parameters
+   1  GTR           1.0000   0.3169   GTR{1.37496,3.74546,0.833328,1.71753,2.33375}+FO{0.332441,0.160323,0.140731,0.366506}
+   2  GTR           1.0000   0.1135   GTR{3.9736,0.078919,3.04233,0.0001,8.89328}+FO{0.0745993,0.377238,0.414636,0.133526}
+   3  GTR           1.0000   0.0935   GTR{0.0196939,1.79441,0.155361,2.47122,1.42841}+FO{0.645909,0.310868,0.0229054,0.0203176}
+   4  GTR           1.0000   0.1906   GTR{0.0001,3.73566,0.104043,2.19359,2.04497}+FO{0.181118,0.342139,0.0101758,0.466567}
+   5  GTR           1.0000   0.1209   GTR{0.500072,3.2422,0.329355,2.97594,4.36164}+FO{0.195013,0.203393,0.444438,0.157156}
+   6  GTR           1.0000   0.1645   GTR{1.09863,1.95663,0.0490504,0.0001,2.72339}+FO{0.399237,0.0319041,0.522276,0.0465826}
+
+Model of rate heterogeneity: Invar+FreeRate with 3 categories
+Proportion of invariable sites: 0.3637
+Site proportion and rates:  (0.1772,0.3328) (0.2480,0.9410) (0.2111,3.3520)
+
+ Category  Relative_rate  Proportion
+  0         0              0.3637
+  1         0.3328         0.1772
+  2         0.9410         0.2480
+  3         3.3520         0.2111
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -115223.0604 (s.e. 643.5487)
+Unconstrained log-likelihood (without tree): -160890.2582
+Number of free parameters (#branches + #model parameters): 87
+Akaike information criterion (AIC) score: 230620.1208
+Corrected Akaike information criterion (AICc) score: 230620.8593
+Bayesian information criterion (BIC) score: 231311.2200
+
+Total tree length (sum of branch lengths): 2.6821
+Sum of internal branch lengths: 0.6963 (25.9630% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'protopterus' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++-----------------------------------------------------------protopterus
+|
+|                                     +------------Anolis
+|                                  +--| (44)
+|                                  |  +------podarcis
+|                   +--------------| (100)
+|                   |              +------------python
+|              +----| (100)
+|              |    |               +----Gallus
+|              |    |     +---------| (100)
+|              |    |     |         +-------Taeniopygia
+|              |    |  +--| (64)
+|              |    |  |  |       +--alligator
+|              |    |  |  +-------| (100)
+|              |    |  |          +--caiman
+|              |    +--| (91)
+|              |       |         +--emys_orbicularis
+|              |       |      +--| (96)
+|              |       |      |  +--chelonoidis_nigra
+|              |       |   +--| (100)
+|              |       |   |  +--caretta
+|              |       +---| (100)
+|              |           +--phrynops
++--------------| (100)
+|              |            +--------------Homo
+|              |         +--| (100)
+|              |         |  +---------------Monodelphis
+|              +---------| (100)
+|                        +------------------Ornithorhynchus
+|
++----------------------------------------------------------Xenopus
+
+Tree in newick format:
+
+(protopterus:0.5208406878,((((Anolis:0.1173329278,podarcis:0.0616155683)44:0.0017635687,python:0.1173230934)100:0.1365800981,(((Gallus:0.0507085527,Taeniopygia:0.0771249352)100:0.0885056136,(alligator:0.0027034144,caiman:0.0148666963)100:0.0704899051)64:0.0223858983,(((emys_orbicularis:0.0074080550,chelonoidis_nigra:0.0130515611)96:0.0029463291,caretta:0.0113646752)100:0.0103774391,phrynops:0.0300395800)100:0.0431426637)91:0.0146219172)100:0.0493623341,((Homo:0.1331274336,Monodelphis:0.1429408293)100:0.0339633748,Ornithorhynchus:0.1664974506)100:0.0900331466)100:0.1321683213,Xenopus:0.5187673638);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -115223.060549
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----------------------------------------------------------protopterus
+|
+|                                     +------------Anolis
+|                                  +--| (44)
+|                                  |  +------podarcis
+|                   +--------------| (100)
+|                   |              +------------python
+|              +----| (100)
+|              |    |               +----Gallus
+|              |    |     +---------| (100)
+|              |    |     |         +-------Taeniopygia
+|              |    |  +--| (64)
+|              |    |  |  |       +--alligator
+|              |    |  |  +-------| (100)
+|              |    |  |          +--caiman
+|              |    +--| (91)
+|              |       |         +--emys_orbicularis
+|              |       |      +--| (96)
+|              |       |      |  +--chelonoidis_nigra
+|              |       |   +--| (100)
+|              |       |   |  +--caretta
+|              |       +---| (100)
+|              |           +--phrynops
++--------------| (100)
+|              |            +--------------Homo
+|              |         +--| (100)
+|              |         |  +---------------Monodelphis
+|              +---------| (100)
+|                        +------------------Ornithorhynchus
+|
++----------------------------------------------------------Xenopus
+
+
+Consensus tree in newick format: 
+
+(protopterus:0.5205526975,((((Anolis:0.1173313506,podarcis:0.0616154540)44:0.0017617113,python:0.1173233173)100:0.1365788773,(((Gallus:0.0507090486,Taeniopygia:0.0771229643)100:0.0885043512,(alligator:0.0027033338,caiman:0.0148681383)100:0.0704848340)64:0.0223866478,(((emys_orbicularis:0.0074086373,chelonoidis_nigra:0.0130520473)96:0.0029451033,caretta:0.0113648270)100:0.0103782832,phrynops:0.0300397171)100:0.0431420446)91:0.0146259392)100:0.0493516811,((Homo:0.1331283518,Monodelphis:0.1429412591)100:0.0339650306,Ornithorhynchus:0.1664970799)100:0.0900383352)100:0.1326122530,Xenopus:0.5183844593);
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Jan 21 13:43:19 2026
+Total CPU time used: 4249.46875 seconds (1h:10m:49s)
+Total wall-clock time used: 2197.375585 seconds (0h:36m:37s)
+
